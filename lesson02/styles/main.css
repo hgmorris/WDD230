@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Roboto+Mono:ital@1&display=swap');
+
+h1, h2, h3, h4, h5, h6, p, a {
+    font-family: "Oswald", sans-serif, "Roboto Mono", monospace, 'Times New Roman';
+    
+}
+
+header h1, header h2{
+    text-align: center;
+}
+
+section {
+    padding: 5%;
+    align-content: center;
+    text-align: center;
+    border-top: 0.2em white;
+}
+
+section h2, section h3 {
+    text-align: center;
+}
+
+section a {
+    display: inline-block;
+    text-align: center;
+}
+
+img {
+    max-width: 90%;
+    border-radius: 10px;
+    margin: 5%;
+}
+
+footer {
+    border-top: 0.2em white;
+    text-align: center;
+}
+
+main {
+    display: grid;
+    grid-template-areas: "s1" "s2" "s3";
+}
+
+
+#section1{
+    grid-area: s1;            
+    background-color: lightblue;
+}
+#section2{
+    grid-area: s2;            
+    background-color: lightgreen;
+}
+
+#section3{
+    grid-area: s3;            
+    background-color: lightcoral;
+}
+
+section{
+    padding: 1rem;            
+    border: 2px solid white;
+    margin: 1rem;
+}
