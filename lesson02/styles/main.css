@@ -53,7 +53,7 @@ main {
 
 #section3{
     grid-area: s3;            
-    background-color: lightcoral;
+    background-color: rgb(240, 232, 128);
 }
 
 section{
