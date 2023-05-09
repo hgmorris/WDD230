@@ -1,8 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans&family=Ubuntu&display=swap");
 
 :root{
-  --header-bg-color: #124559;
-  --menu-bg-color: #5eb2d1;
+  --header-bg-color: hsl(183, 17%, 27%);
+  --menu-bg-color: #1fbaf3;
   --menu-highlight-color: #8db591;
   --body-bg-color: #EFF6E0;
 }
