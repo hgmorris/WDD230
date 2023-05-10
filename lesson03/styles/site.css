@@ -2,7 +2,7 @@
 
 :root{
   --header-bg-color: hsl(183, 17%, 27%);
-  --menu-bg-color: #1fbaf3;
+  --menu-bg-color: hwb(200 24% 75%);
   --menu-highlight-color: #8db591;
   --body-bg-color: #EFF6E0;
 }
