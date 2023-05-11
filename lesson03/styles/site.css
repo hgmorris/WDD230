@@ -33,7 +33,7 @@ footer {
   color: white;
 }
 
-#navbar{
+.navbar{
   background-color: var(--menu-bg-color);
   color: white;
 }
