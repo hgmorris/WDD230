@@ -42,6 +42,38 @@ footer {
   background-color: var(--menu-highlight-color);
 }
 
+#menu-toggle{
+  display: block;
+  border: 2px solid black;
+  font-size: 2rem;
+  font-weight: bold;
+  background-color: var(--menu-highlight-color);
+}
+
+#menu-open{
+  display: block;
+}
+
+#menu-close{
+  display: none;
+}
+
+#menu-open.open{
+  display: none;
+}
+
+#menu-close.open{
+  display: block;
+}
+
+#navbar.open{
+  display: flex;
+}
+
+#navbar{
+  display: none;
+}
+
 nav {
   background-color: var(--menu-bg-color);
   max-width: 832px; 
@@ -122,3 +154,12 @@ nav ul li.active a{
   }
 
 }  
+#menu-toggle{
+  display: none;
+}
+
+#navbar{
+  display: flex;
+  flex-direction: row;
+}
+
