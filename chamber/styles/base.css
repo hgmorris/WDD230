@@ -52,7 +52,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 60px;
+    padding: 20px;
     text-align: center;
     background: hsl(183, 17%, 27%);
     color: black;
@@ -86,4 +86,16 @@ header{
 
 #join {
     display: none;
+}
+.menu li{
+    list-style: none;
+    padding: 1rem;
+}
+.menu{
+    display: flex;
+}
+.menu li a{
+    text-decoration: none;
+    color: white;
+    display: block;
 }
