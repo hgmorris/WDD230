@@ -13,8 +13,8 @@ body {
 :root {
     --main-color: #C0D6DF;
     --accent-color: #474c38;
-    --text-color: black;
-    --brown-color: #4F6D7A;
+    --text-color: white;
+    --brown-color: white;
 }
 footer {
     display: flex;
@@ -23,7 +23,7 @@ footer {
     padding: 40px;
     text-align: center;
     background: hsl(183, 17%, 27%);
-    color: black;
+    color: white;
     font-size: 30px;
   }
 
@@ -32,6 +32,11 @@ footer {
     align-items: center;
     color: var(--brown-color);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+footer img{
+    width:100px;
+    height: 100px;
+
 }
 #logo img {
     width: 100px;

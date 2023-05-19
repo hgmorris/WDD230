@@ -38,4 +38,15 @@
     .s3 {
         display: block;
     }
+    .logoinfo{
+        display: flex;
+        text-align: left;
+        gap: 20px;
+        font-size: large;
+    }
+    .contactinfo{
+        display: flex;
+        text-align: left;
+        font-size: small;
+    }
 }
