@@ -91,11 +91,31 @@ header{
     list-style: none;
     padding: 1rem;
 }
-.menu{
-    display: flex;
-}
 .menu li a{
     text-decoration: none;
     color: white;
     display: block;
 }
+#menu-closed{
+    display: block;
+    font-size: 2rem;
+    padding: 1rem;
+}
+#menu-open{
+    display: none;
+    font-size: 2rem;
+    padding: 1rem;
+}
+#menu{
+    display: none;
+}
+#menu-closed.active{
+    display: none;
+}
+#menu-open.active{
+    display: block;
+}
+#menu.active{
+    display: block;
+}
+
