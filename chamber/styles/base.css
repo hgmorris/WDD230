@@ -106,7 +106,7 @@ header{
     font-size: 2rem;
     padding: 1rem;
 }
-#menu{
+.menu{
     display: none;
 }
 #menu-closed.active{
@@ -115,7 +115,7 @@ header{
 #menu-open.active{
     display: block;
 }
-#menu.active{
+.menu.active{
     display: block;
 }
 
