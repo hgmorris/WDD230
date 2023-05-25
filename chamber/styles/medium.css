@@ -27,5 +27,8 @@
     .home div {
         height: 200px;
     }
+    #newsrelease{
+        width: auto;
+    }
     
 }

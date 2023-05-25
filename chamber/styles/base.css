@@ -80,9 +80,15 @@ header{
     width: 100%;
     border: 1px solid black;
 }
+#spotlight1 img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
 .s3 {
     display: none;
 }
+
 
 #join {
     display: none;
@@ -127,4 +133,21 @@ header{
 .menu.active{
     display: block;
 }
-
+#newsrelease{
+    width: auto;
+}
+#spotlight1 img {
+height: 100%;
+width: 100%;
+}
+#newsrelease{
+    width: auto;
+}
+#spotlight2 img {
+    height: 100%;
+    width: 100%;
+    }
+    #spotlight3 img {
+        height: 100%;
+        width: 100%;
+        }
