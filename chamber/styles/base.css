@@ -79,6 +79,7 @@ header{
     height: 200px;
     width: 100%;
     border: 1px solid black;
+    position: relative;
 }
 #spotlight1 img {
     height: 100%;
@@ -102,6 +103,26 @@ header{
     width: 100%;
     object-fit: cover;
 }
+#hero {
+    position: relative;
+}
+#Welcome{
+position: absolute;
+font-size: 25px;
+top: left;
+}
+
+#invite{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    height: 47px;
+    width: 12em;
+    padding: 2em;text-align: center;
+    opacity: 0.8;
+
+}
+
 .menu li{
     list-style: none;
     padding: 1rem;
@@ -140,9 +161,6 @@ header{
 height: 100%;
 width: 100%;
 }
-#newsrelease{
-    width: auto;
-}
 #spotlight2 img {
     height: 100%;
     width: 100%;
@@ -150,4 +168,30 @@ width: 100%;
     #spotlight3 img {
         height: 100%;
         width: 100%;
-        }
+    }
+    #spotlight p {
+position: absolute;
+z-index: 999;
+top: 20px;
+padding: 10px;
+background-color: var(--brown-color);
+left: 20px;
+opacity: 0.7;
+}
+#weather_top {
+width: auto;
+display: flex;
+flex-wrap: wrap;
+flex-direction: column;
+justify-content: center;
+}
+
+#weather_top h2{
+    text-align: center;
+    font-size: 3em;
+}
+
+#weather img {
+    max-width: 80px;
+    margin: 0 auto;
+}

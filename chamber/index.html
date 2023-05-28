@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="styles/medium.css">
     <link rel="stylesheet" href="styles/large.css">
     <link rel="stylesheet" href="./styles/normalize.css">
+    <script src="./scripts/windchill.js" defer></script>
+    <script src="./scripts/base.js"></script>
     <title>Seattle Chamber of Commerce</title>
 </head>
 <body>
@@ -42,7 +44,9 @@
 
 <main class="home">
     <div id="hero">
-    <img src="./images/seattle.jpg" alt="">
+    <h1 id="Welcome">Welcome to the Seattle Chamber</h1>
+    <img src="./images/wdd230-org.jpg" alt="">
+    <div id="invite"><a href="">Join the Chamber</a></div>
     </div> 
 
     <div id="event">
@@ -52,12 +56,17 @@
     <p>July 4, 2023: Chamber Firework Show</p>
     <p>August 12, 2023: Chamber Inauguration Day for Newly Elected Members.</p>
     </div>
-    <div id="weather">
+    <div>
+    <section id="Weather">
         <h2>Weather</h2>
-        <h2>
-        <span id="temp">55° F</span>
-        </h2>
-    </div>
+        <img src="./images/weather.png" alt="">
+    <h2><span id="temperature">?</span>&deg; F</h2>
+    <h2 id="weatherdesc">Clear</h2>
+    <hr>
+    <h3>Wind Speed: <span id="windspeed">?</span> mph</h3>
+    <h3>Wind Chill: <span id="windchill">?</span>&deg; F</h3>
+</section>
+</div>
     <div id="newsrelease">
         <h2>Seattle News</h2>
         <hr>
@@ -65,15 +74,6 @@
         <p>At a press conference last Friday, May 2023,
          Mayor Anderson announced $50M in grants and tax cuts aimed
         to help small businesses recover from the coronavirus slump".</p>
-        <hr>
-        <h3>Seattle Businesses See Massive Gains</h3>
-        <p>The April 2023 Seattle Business Report is in. 
-        It indicated great news for Seattle businesses: 
-        sales are up, tourism is up, population is growing,
-        and consumer sentiment is at an all time high! Seattle is back!</p>
-        <hr>
-        <h3>NEWS TITLE HERE</h3>
-        <P>NEWS ARTICLE HERE</P>
     </div>
     <div id="spotlight">
         <h2>Business Spotlights</h2>
@@ -114,7 +114,6 @@
         </div>
           </footer>
           
-
     </footer>
 </body>
 </html>
