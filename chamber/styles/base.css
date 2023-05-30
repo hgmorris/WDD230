@@ -195,3 +195,6 @@ justify-content: center;
     max-width: 80px;
     margin: 0 auto;
 }
+#weather div{
+    height: auto;
+}
