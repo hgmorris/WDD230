@@ -55,8 +55,6 @@ footer img{
 
 #socialmedia {
     font-size: 25px;
-    display: flex;
-    flex-direction: row;
 }
 
 header{
@@ -68,10 +66,6 @@ header{
     background: hsl(183, 17%, 27%);
     color: black;
     font-size: 30px;
-}
-#display{
-    background-color: rgb(205, 215, 218);
-    text-decoration-color:#ffffff;
 }
 
 .home {

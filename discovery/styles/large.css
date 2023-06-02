@@ -7,12 +7,6 @@
     #event {
         grid-column: 1/2;
         grid-row: 1/2;
-        height: auto;
-    }
-    #socialmedia{
-        display: flex;
-        flex-direction: row;
-        gap: 10px;
     }
 
     #weather {
@@ -45,8 +39,6 @@
         grid-column: 3/4;
         grid-row: 1/4;
         flex-direction: column;
-        height: fit-content;
-        padding-bottom: 69px;
     }
     .s3 {
         display: block;

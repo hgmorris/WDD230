@@ -11,12 +11,11 @@
     <link rel="stylesheet" href="styles/large.css">
     <link rel="stylesheet" href="./styles/normalize.css">
     <script src="./scripts/windchill.js" defer></script>
-  
 
     <title>Seattle Chamber of Commerce</title>
 </head>
 <body>
-    <p id="message">Message to be displayed</p>
+    <!-- <p id="message">Message to be displayed</p> -->
     <header>
        <div id="logo"> 
         <img src="./images/seattle.Webp" alt="">
@@ -29,6 +28,7 @@
         <img src="./images/facebook2.png" alt="facebook">
         <img src="./images/insta.png" alt="instagram">
         <img src="images/lin.png" alt="linkedin">
+
        </div>
        <nav>
         <button id="hamburger-menu">
@@ -41,13 +41,21 @@
             <li><a href="">Join</a></li>
             <li><a href="">Contact</a></li>
         </ul>
+        <!-- <p id="message"></p> -->
     </nav>
     </header>
-
+    <div id="display">
+    <div id="message"></div>
+</div>
 <main class="home">
     <div id="hero">
     <h1 id="Welcome">Welcome to the Seattle Chamber</h1>
-    <img src="./images/wdd230-org.webp" alt="Hero">
+    <picture>
+        <source srcset="./images/large-org.jpg" media="(min-width: 1200px)">
+        <source srcset="./images/medium-org.jpg" media="(min-width: 768px)">
+        <img src="./images/small-org.jpg" alt="Hero Image">
+      </picture>
+    <!-- <img src="./images/wdd230-org.webp" alt="Hero"> -->
     <div id="invite"><a href="">Join the Chamber</a></div>
     </div> 
 
@@ -115,7 +123,11 @@
         <p>(123) 646 5677</p>
         </div>
         <div class="container">
-        <p>&copy; 2023 | WDD 230 | Morris Hinneh</p>
+
+        <p>&copy; 2023 | WDD 230 | Morris Hinneh | WDD230 project | Last Modification:
+        <span id="Modification"></span>
+        </p>
+
         </div>
           </footer>
 </body>
