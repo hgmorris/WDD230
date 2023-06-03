@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'EB Garamond', serif;
+    max-width: 1060px;
+    margin: 0 auto;
+    padding:10px;
+}
+:root {
+    --main-color: #C0D6DF;
+    --accent-color: #474c38;
+    --text-color: white;
+    --brown-color: white;
+}
+footer {
+    display:grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1/3;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+    text-align: center;
+    background: hsl(183, 17%, 27%);
+    color: white;
+    font-size: 30px;
+  }
+  .container {
+    grid-column: 1/3;
+    align-items: center;
+    justify-content: center;
+  }
+  
+
+#logo {
+    display: flex;
+    align-items: center;
+    color: var(--brown-color);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+footer img{
+    width:100px;
+    height: 100px;
+
+}
+#logo img {
+    width: 100px;
+    height:100px;
+   
+}
+
+#socialmedia {
+    font-size: 25px;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    text-align: center;
+    background: hsl(183, 17%, 27%);
+    color: black;
+    font-size: 30px;
+}
+.menu li{
+    list-style: none;
+    padding: 1rem;
+}
+.menu li a{
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+#menu-closed{
+    display: block;
+    font-size: 2rem;
+    padding: 1rem;
+}
+#menu-open{
+    display: none;
+    font-size: 2rem;
+    padding: 1rem;
+}
+.menu{
+    display: none;
+}
+#menu-closed.active{
+    display: none;
+}
+#menu-open.active{
+    display: block;
+}
+.menu.active{
+    display: block;
+}
+.logoinfo{
+    display: flex;
+    text-align: left;
+    gap: 20px;
+    font-size: large;
+}
+.contactinfo{
+    display: flex;
+    text-align: left;
+    font-size: small;
+}

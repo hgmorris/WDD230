@@ -7,11 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="shortcut icon" href="images/favicon.ico">
     <meta name="description" content="Seattle Chamber of Commerce site for WDD230">
-    <link rel="stylesheet" href="styles/normalize.css">
-    <link rel="stylesheet" href="styles/base.css">
-    <link rel="stylesheet" href="styles/medium.css">
-    <link rel="stylesheet" href="styles/large.css">
-    <script defer src="scripts/visits.js"></script>
+    <link rel="stylesheet" href="/chamber/styles/normalize.css">
+    <link rel="stylesheet" href="/chamber/styles/handf.css">
+    <script src="/chamber/scripts/base.js" defer></script>
     <title>Seattle Chamber of Commerce</title>
 </head>
 
@@ -26,27 +24,33 @@
         </div>
     </div>
     <header>
-        <div id="logo">
-            <a href="index.html"><img src="images/logo.png" alt="Seattle Chamber of Commerce Logo"></a>
+        <div id="logo"> 
+         <img src="/chamber/images/seattle.png" alt="">
+         <div>
+             <h2>Seattle</h2>
+             <h3>Chamber of Commerce</h3>
+         </div>
         </div>
-        <a href="#" id="hamburger">&#9776;</a>
+        <div id="socialmedia">
+         <img src="./images/facebook2.png" alt="facebook">
+         <img src="./images/insta.png" alt="instagram">
+         <img src="images/lin.png" alt="linkedin">
+ 
+        </div>
         <nav>
-            <ul>
-                <li><a href="discover.html">Discover</a></li>
-                <li><a href="directory.html">Directory</a></li>
-                <li><a href="join.html">Join</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-        <section class="socials">
-            <a href="./images/facebook2.png"><img src="" alt="Facebook Logo and Link to our Facebook"></a>
-            <a href="images/insta.png"><img src="" alt="Instagram Logo and Link to our Instagram"></a>
-            <a href="images/lin.png"><img src="" alt="LinkedIn Logo and Link to our LinkedIn"></a>
-    
-        </section>
-
-    </header>
-
+         <button id="hamburger-menu">
+             <span  id="menu-closed">&equiv;</span>
+             <span  id="menu-open">X</span>
+             </button>
+         <ul class="menu">
+             <li><a href="">Discover</a></li>
+             <li><a href="">Directory</a></li>
+             <li><a href="">Join</a></li>
+             <li><a href="">Contact</a></li>
+         </ul>
+         <!-- <p id="message"></p> -->
+     </nav>
+     </header>
     <section class="date"></section>
 
     <main>
@@ -128,26 +132,28 @@
     </main>
 
     <footer>
-        <section id="about">
-            <img src="images/logo.png" alt="Seattle Chamber of Commerce Logo">
-            <div id="address">
-                <h3>Visit Us</h3>
-                <p>10 Pike Street</p>
-                <p>Seattle, WA 96101</p>
-                <a href="#">Directions</a>
+        <div class="logoinfo">
+            <img src="./images/seattle.png" alt="logo">
+            <div>
+            <p>Seattle Commerce of Chamber</p>
+            <p>10 Pike Street</p>
+            <p>Seattle, WA 96101</p>
+            <h3>Visit Us</h3>
             </div>
-            <div id="contact">
-                <h3>Contact Us</h3>
-                <p>info@seattle.com</p>
-                <p>(123) 456-7890</p>
             </div>
-        </section>
-        <section id="copyright">
-            <p>&copy; <span id="copyrightYear"></span> Seattle Chamber of Commerce | Morris Hinneh | WDD230 Project</p>
-            <p>Last Modified: <span id="lastModified"></span></p>
-            <p><span id="lastVisited"></span></p>
-        </section>
-    </footer>
+            <div class="Contact">
+            <h3>Contact</h3>
+            <p>infor@seattle.com</p>
+            <p>(123) 646 5677</p>
+            </div>
+            <div class="container">
+    
+            <p>&copy; 2023 | WDD 230 | Morris Hinneh | WDD230 project | Last Modification:
+            <span id="Modification"></span>
+            </p>
+    
+            </div>
+              </footer>
 </body>
 
 </html>
