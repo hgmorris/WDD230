@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="/chamber/styles/normalize.css">
     <link rel="stylesheet" href="/chamber/styles/handf.css">
     <link rel="stylesheet" href="./styles/base.css">
+    <script src="./script/localstorage.js"></script>
     <script src="/chamber/scripts/base.js" defer></script>
     <title>Seattle Chamber of Commerce</title>
 </head>
@@ -52,7 +53,9 @@
          <!-- <p id="message"></p> -->
      </nav>
      </header>
-    <section class="date"></section>
+    <section class="date">
+        <h1>It has been <span id='days-since-visit'></span> days since your last visit.</h1>
+    </section>
 
     <main>
         <h1>Discover Seattle</h1>
@@ -104,32 +107,6 @@
                 </picture>
                 <h2>Bainbridge Ferry</h2>
                 <p>Come visit Bainbrigde Island through our ferry system.</p>
-            </div>
-            <div id="disc7">
-                <picture>
-                    <img src="./images/theater2.jpg"
-                        data-src="images/discover/theater.jpg" alt="Seattle Historic Theater">
-                </picture>
-                <h2>The Theater</h2>
-                <p>Come visit our historic theater.</p>
-            </div>
-            <div id="disc8">
-                <picture>
-                    <img src="./images/rsz_grocery_store.jpg"
-                        data-src="images/discover/shoppingeating.jpg" alt="Plants and cafe shop">
-                </picture>
-                <h2>Shopping & Eating</h2>
-                <p>Home to world renowned shopping and eating experiences.</p>
-            </div>
-            <div id="disc9">
-                <picture>
-                    <img src="./images/rsz_1rsz_1fresh-groceries.jpg" 
-                        data-src="images/discover/freshfood.png" alt="Grocery Store">
-                </picture>
-                <h2>Fresh Groceries</h2>
-                <p>Seattle has the freshest groceries.</p>
-            </div>
-        </div>
     </main>
 
     <footer>
