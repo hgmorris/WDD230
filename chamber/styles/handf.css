@@ -28,6 +28,7 @@ footer {
     background: hsl(183, 17%, 27%);
     color: white;
     font-size: 30px;
+    height: 33.33%; 
   }
   .container {
     grid-column: 1/3;
