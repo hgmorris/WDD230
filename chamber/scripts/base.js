@@ -18,8 +18,8 @@ console.log(message)
 let text = document.lastModified;
 document.querySelector("#Modification").textContent = text
 
-// if(newDateChamber.getDay() == 1 || newDateChamber.getDay() == 2) {
-//     message.style.display = "block"
-// } else {
-//     message.style.display = "none"
-// }
+if(newDateChamber.getDay() == 1 || newDateChamber.getDay() == 2) {
+    message.style.display = "block"
+} else {
+    message.style.display = "none"
+}
