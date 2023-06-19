@@ -1,0 +1,76 @@
+@media screen and (min-width:1000px) {
+    .home {
+        grid-template-columns: 250px 500px 250px;
+        grid-template-rows: repeat(3, 1fr);
+    }
+
+    #event {
+        grid-column: 1/2;
+        grid-row: 1/2;
+        height: auto;
+    }
+    #socialmedia{
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+    }
+
+    #weather_container {
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+    #spotlight3{
+        display: block;
+    }
+
+    #join {
+        grid-column: 1/2;
+        grid-row: 3/4;
+    }
+
+    #hero {
+        grid-column: 2/3;
+        grid-row: 1/3;
+        height: 500px;
+        padding: 0;
+    }
+    #hero img {
+        width: 500px;
+        object-fit: cover;
+    }
+    #newsrelease {
+        grid-column: 2/3;
+        grid-row: 3/4;
+    }
+
+
+    #spotlight {
+        grid-column: 3/4;
+        grid-row: 1/4;
+        flex-direction: column;
+        height: fit-content;
+        padding-bottom: 69px;
+    }
+    .s3 {
+        display: block;
+    }
+    .logoinfo{
+        display: flex;
+        text-align: left;
+        gap: 20px;
+        font-size: large;
+    }
+    .contactinfo{
+        display: flex;
+        flex-direction: column;
+        text-align: right;
+        font-size: small;
+    }
+    .menu{
+        display: flex;
+}
+#hamburger-menu{
+    display: none;
+}
+
+}

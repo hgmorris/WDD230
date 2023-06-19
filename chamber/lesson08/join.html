@@ -9,6 +9,7 @@
     <meta name="description" content="Seattle Chamber of Commerce site for WDD230">
     <link rel="stylesheet" href="/chamber/styles/normalize.css">
     <link rel="stylesheet" href="/chamber/styles/base.css">
+    <link rel="stylesheet" href="/chamber/styles/medium.css">
     <script src="/chamber/scripts/base.js" defer></script>
     <title>Seattle Chamber of Commerce</title>
 </head>
@@ -24,16 +25,16 @@
     </div>
     <header>
         <div id="logo"> 
-         <img src="/chamber/images/seattle.png" alt="">
+         <img src="/chamber/images/seattle.png" alt="Logo">
          <div>
              <h2>Seattle</h2>
              <h3>Chamber of Commerce</h3>
          </div>
         </div>
         <div id="socialmedia">
-         <img src="./images/facebook2.png" alt="facebook">
-         <img src="./images/insta.png" alt="instagram">
-         <img src="images/lin.png" alt="linkedin">
+         <img src="/chamber/images/facebook2.png" alt="facebook">
+         <img src="/chamber/images/insta.png" alt="instagram">
+         <img src="/chamber/images/lin.png" alt="linkedin">
         </div>
         <nav>
          <button id="hamburger-menu">
@@ -42,7 +43,7 @@
              </button>
          <ul class="menu">
              <li><a href="discovery.html">Discover</a></li>
-             <li><a href="">Directory</a></li>
+             <li><a href="../directory/directory.html">Directory</a></li>
              <li><a href="join.html">Join</a></li>
              <li><a href="">Contact</a></li>
          </ul>
@@ -55,7 +56,7 @@
     <main class="join">
         <div class="form">
             <h1>Join The Chamber</h1>
-            <form action="thankyou.html" method="GET" autocomplete="on">
+            <form action="/chamber/thankyou.html" method="GET" autocomplete="on">
                 <label for="fname">First Name*<input type="text" id="fname" name="fname" required></label>
 
                 <label for="lname">Last Name*<input type="text" id="lname" name="lname" required></label>
@@ -142,13 +143,10 @@
                     <li>1 free training per quarter</li>
                 </ul>
             </div>
-
-
-        </div>
     </main>
     <footer>
         <div class="logoinfo">
-            <img src="./images/seattle.png" alt="logo">
+            <img src="/chamber/images/seattle.png" alt="logo">
             <div>
             <p>Seattle Commerce of Chamber</p>
             <p>10 Pike Street</p>
@@ -161,16 +159,16 @@
             <p>infor@seattle.com</p>
             <p>(123) 646 5677</p>
             </div>
-            <div id="copyright">
+            <!-- <div id="copyright">
               <p>&copy; <span id="copyrightYear"></span>Seattle Chamber of Commerce | Morris Hinneh | WDD230</p>
-                <p id="lastModified"></p>
+                <p id="lastModified"></p> -->
                 <!-- <p><span id="lastModified"></span></p> -->
-            </div>
-            <!-- <div class="container">
+            <!-- </div> -->
+            <div class="container">
     
             <p>&copy; 2023 | WDD 230 | Morris Hinneh | WDD230 project | Last Modification:
             <span id="Modification"></span>
             </p>
-     -->
+    
               </footer>
               </html>

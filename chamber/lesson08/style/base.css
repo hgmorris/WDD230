@@ -231,3 +231,27 @@ justify-content: center;
     margin-left: 1rem;
     margin-right: 1rem;    
 }
+
+/* Join page hover effect */
+.join-button:hover {
+    background-color: #00FF00; /* Change background color on hover */
+    color: #FFFFFF; /* Change text color on hover */
+    transform: scale(1.1); /* Add scale transformation on hover */
+  }
+  
+
+.main-join .a-button{
+    position: static;
+}
+.membershipLevels {
+    /* CSS styles for the membershipLevels div */
+    background-color: #d68f8f;
+    /* Other styles */
+  }
+  .main.join {
+    background-color: #d59292;
+    font-size: 18px;
+  }
+  
+  
+
