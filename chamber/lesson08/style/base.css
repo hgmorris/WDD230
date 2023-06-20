@@ -109,7 +109,7 @@ header{
 }
 
 
-#join {
+#join { 
     display: none;
 }
 #hero {
@@ -244,14 +244,12 @@ justify-content: center;
     position: static;
 }
 .membershipLevels {
-    /* CSS styles for the membershipLevels div */
-    background-color: #d68f8f;
-    /* Other styles */
+    background-color:  #e8bf9a;
   }
   .main.join {
-    background-color: #d59292;
+    background-color: #e8bf9a;
     font-size: 18px;
   }
-  
-  
+
+/* Join */
 

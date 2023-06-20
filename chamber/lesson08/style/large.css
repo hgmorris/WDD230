@@ -64,13 +64,30 @@
         display: flex;
         flex-direction: column;
         text-align: right;
-        font-size: small;
+        font-size: large;
     }
     .menu{
         display: flex;
-}
-#hamburger-menu{
-    display: none;
-}
+    }
+    #hamburger-menu{
+        display: none;
+    }
+    .join{
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        gap: 10px;
+    }
+    .form{
+        color:#493b2a ;
+        background-color: #e8bf9a;
+        grid-column: 2/3;
+        grid-row:1/3;
+        padding: 20px;
+        
+    }
+    form{
+        display: flex;
+        flex-direction: column;
+    }
 
 }

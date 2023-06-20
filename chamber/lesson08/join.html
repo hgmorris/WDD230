@@ -7,9 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="shortcut icon" href="images/favicon.ico">
     <meta name="description" content="Seattle Chamber of Commerce site for WDD230">
-    <link rel="stylesheet" href="/chamber/styles/normalize.css">
-    <link rel="stylesheet" href="/chamber/styles/base.css">
-    <link rel="stylesheet" href="/chamber/styles/medium.css">
+    <link rel="stylesheet" href="./style/normalize.css">
+    <link rel="stylesheet" href="./style/base.css">
+    <link rel="stylesheet" href="./style/large.css">
     <script src="/chamber/scripts/base.js" defer></script>
     <title>Seattle Chamber of Commerce</title>
 </head>
@@ -56,7 +56,7 @@
     <main class="join">
         <div class="form">
             <h1>Join The Chamber</h1>
-            <form action="/chamber/thankyou.html" method="GET" autocomplete="on">
+            <form action="../thankyou.html" method="GET" autocomplete="on">
                 <label for="fname">First Name*<input type="text" id="fname" name="fname" required></label>
 
                 <label for="lname">Last Name*<input type="text" id="lname" name="lname" required></label>
@@ -81,9 +81,7 @@
                 </label>
 
                 <label for="desc">Business Description<textarea name="desc" id="desc"></textarea></label>
-
-                <label for="dateTime" hidden>Datetime <span id="date"></span><input type="datetime-local" name="dateTime" id="dateTime" required hidden>
-                </label>
+                <input type="hidden" name="dateTime" id="dateTime">
                 <input type="submit" id="submit" value="Submit">
             </form>
         </div>
