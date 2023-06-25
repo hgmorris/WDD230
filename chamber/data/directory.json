@@ -1,0 +1,42 @@
+{
+    "members" : [
+    {
+        "name" : "XYZ Company",
+            "street":"123 Main Street",
+            "city":"Rexburg",
+            "state":"ID",
+            "zip":"83440",
+            "phone":"208-356-1234",
+            "websiteURL":"https://www.rexburg.org",
+            "imageURL":"./images/directory/rexburg.png",
+            "membershipLevel":"gold",
+            "adCopy":""
+    },
+
+    {
+        "name" : "XYZ Company",
+            "street":"123 Main Street",
+            "city":"Rexburg",
+            "state":"ID",
+            "zip":"83440",
+            "phone":"208-356-1234",
+            "websiteURL":"https://www.rexburg.org",
+            "imageURL":"./images/directory/rexburg.png",
+            "membershipLevel":"gold",
+            "adCopy":""
+    },
+    {
+        "name" : "XYZ Company",
+            "street":"123 Main Street",
+            "city":"Rexburg",
+            "state":"ID",
+            "zip":"83440",
+            "phone":"208-356-1234",
+            "websiteURL":"https://www.rexburg.org",
+            "imageURL":"./images/directory/rexburg.png",
+            "membershipLevel":"gold",
+            "adCopy":""
+    }
+    ]
+
+}

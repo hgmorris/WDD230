@@ -24,12 +24,12 @@ listSelector.addEventListener('click', ()=>{
 
 // Directory Data 
 
-const url = "./data/directory.json";
+const url = "../data/directory.json";
 
 // COMPARE THIS TO THE VERSION FOUND IN THE W09 Activity: Working with JSON data and the Fetch API module
 // Using the innerHTML version is a little less Javascript intensive.
 const displayMembers = (members) => {
-  const cards = document.querySelector(".directory-cards"); // select the output container element
+  const cards = document.querySelector("#directory-cards"); // select the output container element
 
   members.forEach((member) => {
     // Create elements to add to the div.cards element
@@ -38,11 +38,13 @@ const displayMembers = (members) => {
     if (member.membershipLevel == 'gold'){
       card.classList.add("gold-member")
     }
-    card.innerHTML = `<h2>${member.name}</h2>
-    <img src="${member.imageURL}" alt="member image">
+    card.innerHTML = `<img src="${member.imageURL}" alt="${member.imageURL}">
+    <h3>${member.name}</h3>
     <p>${member.street}</p>
-    <p>${member.city}, ${member.state} ${member.zip}</p>
-    <p><a href="${member.websiteURL}">Website</a></p>`;
+    <p>${member.city} ${member.state} ${member.zip}</p>
+    <p> <a href='tel:${member.phone}'> ${member.phone}</a> </p>
+    <p> <a href='${member.websiteURL}'> ${member.websiteURL} </a> </p>
+    `
     cards.appendChild(card);
   }); // end of forEach loop
   

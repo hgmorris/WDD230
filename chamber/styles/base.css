@@ -231,3 +231,50 @@ justify-content: center;
     margin-left: 1rem;
     margin-right: 1rem;    
 }
+/* directory section */
+.directory-cards section{
+border: 1px black solid;
+padding: 1rem;
+margin: 1rem;
+background-color: aqua;
+width: 300px;
+text-align: center;
+}
+.directory-cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+    justify-items: center;
+}
+.directory-list section img{
+    display: none;
+}
+.directory-list section{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+.directory-list section:nth-child(odd) {
+    background-color: var(--darker-green);
+}
+
+.directory-list section:nth-child(even) {
+    background-color: var(--dark-green);
+}
+
+
+#directory-selector{
+    width: 100%;
+    text-align: center;
+}
+
+#directory-selector button{
+    padding: 1rem;
+    margin: .5rem;
+    border-radius: 5px;
+    background-color: var(--darker-green);
+    border: 1px black solid;
+}
+
+#directory-selector button.active{
+    background-color: orangered;
+}
+

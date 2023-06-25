@@ -1,6 +1,7 @@
 
 const options = { weekday: 'long', year: 'numeric', month: 'short', day: 'numeric' };
-let newDateChamber = new Date().toLocaleDateString('en-us', options)
+let newDateChamber = new Date();
+let datestring = newDateChamber.toLocaleDateString('en-us', options)
 
 function toggleMenu(){
 document.querySelector(".menu").classList.toggle('active');
@@ -12,7 +13,7 @@ document.querySelector("#menu-open").classList.toggle('active');
 
 
 let message = document.querySelector("#message");
-message.innerHTML = newDateChamber
+message.innerHTML = datestring
 console.log(message)
 
 let text = document.lastModified;
