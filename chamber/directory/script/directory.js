@@ -1,3 +1,4 @@
+
 // Toggle active/not active buttons
 
 let gridSelector = document.querySelector('#directory-grid');
@@ -28,33 +29,32 @@ const url = "../data/directory.json";
 
 // COMPARE THIS TO THE VERSION FOUND IN THE W09 Activity: Working with JSON data and the Fetch API module
 // Using the innerHTML version is a little less Javascript intensive.
-const displayMembers = (members) => {
+const displaycompanies = (companies) => {
   const cards = document.querySelector("#directory-cards"); // select the output container element
 
-  members.forEach((member) => {
+  companies.forEach((company) => {
     // Create elements to add to the div.cards element
     let card = document.createElement("section");
     card.classList.add("directory-card")
-    if (member.membershipLevel == 'gold'){
+    if (company.membershipLevel == 'gold'){
       card.classList.add("gold-member")
     }
-    card.innerHTML = `<img src="${member.imageURL}" alt="${member.imageURL}">
-    <h3>${member.name}</h3>
-    <p>${member.street}</p>
-    <p>${member.city} ${member.state} ${member.zip}</p>
-    <p> <a href='tel:${member.phone}'> ${member.phone}</a> </p>
-    <p> <a href='${member.websiteURL}'> ${member.websiteURL} </a> </p>
+    card.innerHTML = `<img src="${company.imageURL}" alt="${company.imageURL}">
+    <h3>${company.name}</h3>
+    <p>${company.address}</p>
+    <p> <a href='tel:${company.phone}'> ${company.phone}</a> </p>
+    <p> <a href='${company.websiteURL}'> ${company.websiteURL} </a> </p>
     `
     cards.appendChild(card);
   }); // end of forEach loop
   
 }; // end of function expression
 
-async function getMemberData() {
+async function getCompaniesData() {
   const response = await fetch(url);
   if (response.ok) {
     const data = await response.json();
-    displayMembers(data.members);
+    displaycompanies(data.companies);
   } else {
     console.error("There was an error loading the data.");
     const cards = document.querySelector("div.cards");
@@ -62,4 +62,4 @@ async function getMemberData() {
   }
 }
 
-getMemberData();
+getCompaniesData();
