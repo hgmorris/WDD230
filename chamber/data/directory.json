@@ -60,14 +60,14 @@
             "address": "383 Madison Ave, New York, NY 10179",
             "phone": "1-212-270-6000",
             "website": "https://www.jpmorganchase.com",
-            "image": "images/jp-morgan.jpg"
+            "image": "images/jpmorgan.jpg"
         },
         {
             "name": "The Procter & Gamble Company",
             "address": "1 P&G Plaza, Cincinnati, OH 45202",
             "phone": "1-800-742-6253",
             "website": "https://us.pg.com",
-            "image": "images/procter-gamble.jpg"
+            "image": "images/procter.jpg"
         }
     ]
 }
