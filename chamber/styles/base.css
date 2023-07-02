@@ -307,3 +307,8 @@ text-align: center;
     height: 50px;
 }
 
+  h3 {
+    color: #000; /* Change the color to a darker shade for better contrast */
+  }
+
+
