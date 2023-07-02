@@ -245,11 +245,28 @@ justify-content: center;
 }
 .membershipLevels {
     background-color:  #e8bf9a;
+    padding: 1rem;
   }
   .main.join {
     background-color: #e8bf9a;
     font-size: 18px;
   }
+.form{
+    padding: 1rem;
+}
+form label{
+    padding: 1rem;
+}
+.membership select{
+    padding: 1rem;
+}
+.Logoinfo a{
+    font-size: 50px;
 
-/* Join */
+}
+.LocationIMG {
+    width: 50px;
+    height: 50px;
+}
+
 

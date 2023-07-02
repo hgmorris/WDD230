@@ -10,6 +10,7 @@ body {
     max-width: 1060px;
     margin: 0 auto;
     padding:10px;
+    
 }
 :root {
     --main-color: #C0D6DF;
@@ -20,7 +21,7 @@ body {
 footer {
     display:grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 1/3;
     align-items: center;
     justify-content: space-between;
     padding: 40px;
@@ -47,6 +48,7 @@ footer {
 footer img{
     width:100px;
     height: 100px;
+    padding: 1em;
 
 }
 #logo img {
@@ -238,7 +240,7 @@ justify-content: center;
 border: 1px black solid;
 padding: 1rem;
 margin: 1rem;
-background-color: aqua;
+background-color: #AAC0AF;
 width: 300px;
 text-align: center;
 }
@@ -249,12 +251,16 @@ text-align: center;
     flex-direction: column;
     margin-top: 50px;
 
+
 }
 .directory-list section img{
     display: none;
 }
 .directory-grid section img{
     display: block;
+    border: 1px solid #333;
+    box-shadow: 0 0 30px #777;
+    border: 1px black solid;
 }
 .directory-list section{
     display: grid;
@@ -279,10 +285,25 @@ text-align: center;
     margin: .5rem;
     border-radius: 5px;
     background-color: var(--darker-green);
-    border: 1px black solid;
+
 }
 
 #directory-selector button.active{
     background-color: bisque;
+}
+.logoinfo{
+    display: flex;
+    text-align: left;
+    gap: 20px;
+    font-size: large;
+}
+.logoinfo a{
+    font-size: 50px;
+    justify-items: right;
+
+}
+.locationIMG {
+    width: 50px;
+    height: 50px;
 }
 

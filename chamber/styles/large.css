@@ -54,12 +54,12 @@
     .s3 {
         display: block;
     }
-    .logoinfo{
+    /* .logoinfo{
         display: flex;
         text-align: left;
         gap: 20px;
         font-size: large;
-    }
+    } */
     .contactinfo{
         display: flex;
         flex-direction: column;
@@ -71,6 +71,15 @@
 }
 #hamburger-menu{
     display: none;
+}
+.discover {
+    background-color: #E5B25D;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    gap: 10px;
+    padding: 1em;
 }
 
 }
