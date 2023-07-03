@@ -80,7 +80,6 @@ header{
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(3, 1fr);
-    /* grid-template-rows: repeat(auto, auto); */
     gap: 20px;
 }
 .home div {
@@ -232,14 +231,6 @@ justify-content: center;
     margin-right: 1rem;    
 }
 
-/* Join page hover effect */
-.join-button:hover {
-    background-color: #00FF00; /* Change background color on hover */
-    color: #FFFFFF; /* Change text color on hover */
-    transform: scale(1.1); /* Add scale transformation on hover */
-  }
-  
-
 .main-join .a-button{
     position: static;
 }
@@ -257,9 +248,7 @@ justify-content: center;
 form label{
     padding: 1rem;
 }
-.membership select{
-    padding: 1rem;
-}
+
 .Logoinfo a{
     font-size: 50px;
 
@@ -271,7 +260,6 @@ form label{
 nav a:hover{
     background-color: black;
     color: white;
-    /* border-radius: 15px; */
 }
 
 
