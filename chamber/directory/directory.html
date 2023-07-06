@@ -9,7 +9,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
     <link rel="stylesheet" href="../styles/base.css" />
     <link rel="stylesheet" href="../styles/large.css" />
-    <link rel="stylesheet" href="../styles/medium.css"/>   
+    <link rel="stylesheet" href="../styles/medium.css"/> 
+      <script src="../scripts/date.js" defer></script> 
     <script src="../directory/script/directory.js" defer></script>
     <script src="../scripts/base.js" defer></script>
   </head>
@@ -41,16 +42,14 @@
        <p id="message"></p>
    </nav>
    </header>
+   <div class="date">
+    <p class="lastUpdated"><span id="date"></span></p>
+</div>
     <main class="directory">
-        <!-- <div class="icons">
-            <button id="grid"><img src="../images/grid.png" alt="Grid View"></button>
-            <button id="list"><img src="../images/grid.png" alt="List View"></button>
-        </div> -->
           <div id='directory-selector'>
             <button id="directory-grid" class="active">GRID</button>
             <button id="directory-list">LIST</button></div>
           <div id='directory-data' class='directory-cards'>
-        <!-- <div class= "directory-list"id="directory-cards"> -->
         </div>
     </main>
     <footer>

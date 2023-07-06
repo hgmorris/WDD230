@@ -316,5 +316,27 @@ nav a:hover{
     /* border-radius: 15px; */
 }
 
+.date {
+    border: 10px solid black;
+    text-align: center;
+    margin: 20px;
+    border-radius: 20px;
+    z-index: 1;
+    position: relative;
+    background-color:  hsl(183, 17%, 27%);
+    color: white;
+}
+
+#banner-text{
+    border: 2px solid black;
+    text-align: center;
+    margin: 10px;
+    border-radius: 20px;
+    z-index: 1;
+    position: relative;
+    background-color:  hsl(183, 17%, 27%);
+    color: white;
+}
+
 
 

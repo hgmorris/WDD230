@@ -261,5 +261,15 @@ nav a:hover{
     background-color: black;
     color: white;
 }
+.date {
+    border: 10px solid black;
+    text-align: center;
+    margin: 20px;
+    border-radius: 20px;
+    z-index: 1;
+    position: relative;
+    background-color: hsl(183, 17%, 27%);
+    color: white;
+}
 
 

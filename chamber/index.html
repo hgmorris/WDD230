@@ -10,14 +10,13 @@
     <link rel="stylesheet" href="styles/medium.css">
     <link rel="stylesheet" href="styles/large.css">
     <link rel="stylesheet" href="./styles/normalize.css">
+    <script src="../chamber/scripts/date.js" defer></script>
     <script src="./scripts/base.js" defer></script>
     <script src="./scripts/windchill.js" defer></script>
-    <script src="../chamber/directory/script/header-footer.js"></script>
 
     <title>Seattle Chamber of Commerce</title>
 </head>
 <body>
-    <!-- <p id="message">Message to be displayed</p> -->
     <header>
        <div id="logo"> 
         <img src="./images/seattle.Webp" alt="">
@@ -45,6 +44,12 @@
         <!-- <p id="message"></p> -->
     </nav>
     </header>
+    <div class="date">
+        <p class="lastUpdated"><span id="date"></span></p>
+    </div>
+        <div id="banner-text">
+        <p>Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</p>
+ </div>
     <div id="display">
     <div id="message"></div>
 </div>
@@ -56,7 +61,6 @@
         <source srcset="./images/medium-seattle.jpg" media="(max-width: 950px)">
         <img src="./images/seattle.jpg" alt="Hero Image">
       </picture>
-    <!-- <img src="./images/wdd230-org.webp" alt="Hero"> -->
     <div id="invite"><a href="/">Join the Chamber</a></div>
     </div> 
 
