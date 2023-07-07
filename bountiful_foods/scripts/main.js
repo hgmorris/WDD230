@@ -18,7 +18,7 @@ function cycleImages() {
     setTimeout(cycleImages, 3000);
 }
 
-cycleImages();
+
 
 //----------------------------------------------------------------------------------------------------------------------------------------
 
@@ -36,7 +36,7 @@ document.querySelector('#weather_icon').src = image;
 document.querySelector('#weather_icon').alt= data.currentConditions.conditions + ' icon';
 };
 
-getWeather();
+
 
 //-------------------------------------------------------------------------------------
 
@@ -68,4 +68,23 @@ const getNews = async () => {
     }
 }
 
-getNews();
+
+
+function initMap() {
+    var map = new google.maps.Map(document.getElementById('map'), {
+      center: {lat: 34.0522, lng: -118.2437},
+      zoom: 12
+    });
+    var marker = new google.maps.Marker({
+      position: {lat: 34.0522, lng: -118.2437},
+      map: map,
+      title: 'Los Angeles'
+    });
+  }
+
+async function loadAll(){
+    // cycleImages();
+    await getWeather();
+    await getNews();
+    initMap();
+}

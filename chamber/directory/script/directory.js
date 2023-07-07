@@ -4,6 +4,8 @@
 let gridSelector = document.querySelector('#directory-grid');
 let listSelector = document.querySelector('#directory-list');
 let directoryData = document.querySelector('#directory-data');
+let linkSelector = document.querySelector('.menu');
+
 
 gridSelector.addEventListener('click', () => {
   if (!gridSelector.classList.contains('active')) {
@@ -20,6 +22,15 @@ listSelector.addEventListener('click', () => {
     gridSelector.classList.remove('active');
     directoryData.classList.add('directory-list');
     directoryData.classList.remove('directory-cards');
+  }
+});
+
+linkSelector.addEventListener('click', () => {
+  if (!linkSelector.classList.contains('active')) {
+    listSelector.classList.add('active');
+    alert("hello")
+  }else{
+    listSelector.classList.remove('active');
   }
 });
 

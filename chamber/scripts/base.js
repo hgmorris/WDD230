@@ -24,3 +24,14 @@ if(newDateChamber.getDay() == 1 || newDateChamber.getDay() == 2) {
 } else {
     message.style.display = "none"
 }
+
+let linkSelector = document.querySelector('.menu');
+
+linkSelector.addEventListener('click', () => {
+    if (!linkSelector.classList.contains('active')) {
+      listSelector.classList.add('active');
+      alert("hello")
+    }else{
+      listSelector.classList.remove('active');
+    }
+  });
